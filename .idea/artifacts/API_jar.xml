@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="API:jar">
+    <output-path>$USER_HOME$/Desktop/MinecraftDev/Servers/ServerTest/plugins</output-path>
+    <root id="archive" name="API.jar">
+      <element id="module-output" name="API" />
+    </root>
+  </artifact>
+</component>

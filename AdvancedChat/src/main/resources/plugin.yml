@@ -1,0 +1,5 @@
+name: MyskChat
+main: com.myskdias.chat.AdvancedChat
+version: 1.0
+author: Myskdias
+depend: [MyskAPI]
