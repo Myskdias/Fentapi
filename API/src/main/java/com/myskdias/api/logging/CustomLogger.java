@@ -3,7 +3,6 @@ package com.myskdias.api.logging;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginLogger;
 
-import java.util.logging.Level;
 import java.util.logging.LogRecord;
 
 public class CustomLogger extends PluginLogger {

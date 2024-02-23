@@ -12,6 +12,7 @@
         <module>AdvancedChat</module>
         <module>API</module>
         <module>Totem</module>
+        <module>MyskUHC</module>
     </modules>
 
     <properties>
