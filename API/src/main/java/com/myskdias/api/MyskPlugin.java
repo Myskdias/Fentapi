@@ -1,6 +1,7 @@
 package com.myskdias.api;
 
 import com.myskdias.api.logging.CustomLogger;
+import com.myskdias.api.logging.Color;
 import org.bukkit.plugin.PluginLogger;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -41,7 +42,7 @@ public class MyskPlugin extends JavaPlugin {
     }
 
     /**
-     * change the pluginLogger instance with a new one that add a {@link com.myskdias.api.logging.Color#RESET} string at the end of each log
+     * change the pluginLogger instance with a new one that add a {@link Color#RESET} string at the end of each log
      * so that the color of a message does not affect the following msg
      */
     private void setUpCustomLogger() {

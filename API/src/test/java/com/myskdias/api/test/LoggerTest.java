@@ -3,8 +3,6 @@ package com.myskdias.api.test;
 
 import java.util.logging.Logger;
 
-import static com.myskdias.api.logging.Color.RESET;
-
 public class LoggerTest  {
 
     public static final String RESET = "\u001B[0m";

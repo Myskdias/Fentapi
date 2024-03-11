@@ -1,0 +1,5 @@
+name: MyskUHC
+main: com.myskdias.uhc.UHCMain
+version: 1.0
+author: Myskdias
+depend: [MyskAPI]

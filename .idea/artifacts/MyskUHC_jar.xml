@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyskUHC:jar">
+    <output-path>$USER_HOME$/Desktop/MinecraftDev/Servers/ServerTest/plugins</output-path>
+    <root id="archive" name="MyskUHC.jar">
+      <element id="module-output" name="MyskUHC" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

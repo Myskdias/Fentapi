@@ -8,7 +8,7 @@ import java.util.logging.LogRecord;
 public class CustomLogger extends PluginLogger {
 
     private String color = Color.DARK_CYAN.toString();
-    private String severeColor = Color.DARK_RED.toString();
+    private String severeColor = Color.BRIGHT_RED.toString();
     private String warningColor = Color.DARK_YELLOW.toString();
     private String infoColor = null;
     private String configColor = null;
@@ -81,7 +81,7 @@ public class CustomLogger extends PluginLogger {
             default:
                 throw new IllegalStateException("Unexpected value: " + logRecord.getLevel());
         }
-        logRecord.setMessage(logRecord.getMessage() + Color.RESET + color + Color.RESET);
+        logRecord.setMessage( Color.RESET + color + logRecord.getMessage() + Color.RESET);
         super.log(logRecord);
     }
 
